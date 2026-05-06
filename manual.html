@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlickZones 使用说明 | 详细教程和功能指南</title>
+    <meta name="description" content="SlickZones 官方使用手册，详细教程涵盖窗口对齐、窗口组管理、快捷键操作、购买充值和设置说明。学习如何高效管理桌面布局，提升工作效率。">
+    <meta name="keywords" content="SlickZones 使用说明, 窗口管理器教程, 窗口组管理, 窗口对齐, 快捷键操作, 购买充值, 软件设置">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="SlickZones Team">
+    <meta name="copyright" content="© 2024 SlickZones">
+    <link rel="canonical" href="https://sz.jiarin.cn/manual.html">
+    <meta property="og:title" content="SlickZones 使用说明 | 详细教程和功能指南">
+    <meta property="og:description" content="SlickZones 详细使用教程，包括窗口对齐、窗口组管理、购买充值等功能指南。">
+    <meta property="og:url" content="https://sz.jiarin.cn/manual.html">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="manual-page">
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="Resources/SlickZonesIcon.png" alt="SlickZones" class="logo-icon">
+                <span class="logo-text">SlickZones</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="manual.html" class="active">使用说明</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="manual-header">
+        <div class="container">
+            <h1>使用说明</h1>
+            <p>全面的使用指南，帮助您高效管理窗口布局</p>
+        </div>
+    </div>
+
+    <div class="manual-content">
+        <div class="container">
+            <div class="manual-section" id="intro">
+                <h2>1. 简介</h2>
+                
+                <p>SlickZones 是一个功能强大的窗口管理器实用工具，可帮助你将窗口排列并贴入自定义布局，以提高工作效率和工作流效率。此实用工具允许你将桌面上的特定区域位置定义为窗口的目标，在拖动到区域或通过键盘快捷方式激活时自动调整大小并重新定位它们。通过智能的区域划分和热键控制，让用户能够快速地将窗口排列到预定义的区域中，提升多任务处理效率。SlickZones 是提升工作效率的理想窗口管理工具。</p>
+                
+                <p><strong>核心功能特性：</strong></p>
+                <div class="feature-list">
+                    <div class="feature-item"><strong>自动监控</strong>自动监控和跟踪所有打开的窗口</div>
+                    <div class="feature-item"><strong>快速分配</strong>将窗口快速分配到预设的区域</div>
+                    <div class="feature-item"><strong>自动吸附</strong>窗口自动调整大小并吸附到指定区域</div>
+                    <div class="feature-item"><strong>多显示器</strong>为每个显示器独立设置不同的布局</div>
+                    <div class="feature-item"><strong>DPI识别</strong>自动识别显示器分辨率和DPI缩放</div>
+                </div>
+                
+                <p>SlickZones 界面如下：</p>
+                <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明291.png" alt="SlickZones 主界面">
+                    <p class="screenshot-caption">SlickZones 主界面</p>
+                </div>
+            </div>
+
+            <div class="manual-section" id="alignment">
+                <h2>1.1 将窗口对齐到单个区域</h2>
+                
+                <p>首先需要先设置布局，在通用配置下面的布局编辑器，点击打开，会出现当前显示器和可以选择的模板列表，点击选择希望的布局，并且启用 SlickZones 后，就可以拖动窗口。这是 SlickZones 窗口管理的基础功能，通过窗口对齐可以快速整理桌面布局。</p>
+                
+                <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明389.png" alt="布局编辑器">
+                    <p class="screenshot-caption">布局编辑器界面</p>
+                </div>
+                
+                <p>默认情况下，还需选择并按住 Shift。你将看到区域出现。移动鼠标时，将鼠标悬停在某个区域上将突出显示该区域，松开鼠标后，窗口将移动到该区域对齐。这种窗口对齐方式大大提高了窗口管理的效率。</p>
+                
+                <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明465.png" alt="拖拽窗口">
+                    <p class="screenshot-caption">拖拽窗口到指定区域</p>
+                </div>
+                
+                <p>如果希望批量拖动多个窗口，那么可以按激活布局区域快捷键，默认情况下是 <strong>Shift+Alt+Z</strong>，你可以看到布局区域预览，这时可以用鼠标点击拖动窗口到某个区域，松开鼠标后，窗口将移动到该区域对齐，并增加到当前窗口组。通过这种方式，你可以快速完成多个窗口的布局调整。</p>
+                
+            </div>
+
+            <div class="manual-section" id="groups">
+                <h2>1.2 窗口组</h2>
+                
+                <p>窗口组是将拖拽到布局区域的窗口归为一组，便于同时隐藏或显示。你还可以预设多个窗口组，定义布局与窗口匹配规则（例如窗口标题、进程名），并通过快捷键（默认 <strong>Shift+Alt+X</strong>）在窗口组间切换与快速排列窗口。</p>
+                
+               
+                <h3>1.2.1 创建窗口组</h3>
+                
+                <p>在主界面滚动到下方，可以看到窗口组配置，点击新增按钮，打开新增窗口组向导窗口。</p>
+                
+                    <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明688.png" alt="激活布局区域">
+                    <!-- <p class="screenshot-caption">激活布局区域预览</p> -->
+                </div>
+               
+                
+                <p>首先选择窗口组需要使用的布局模板，选择后点击下一步。</p>
+                
+                 <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明730.png" alt="新增窗口组">
+                    <!-- <p class="screenshot-caption">新增窗口组按钮</p> -->
+                </div>
+              
+                
+                <p>配置窗口匹配规则，可以创建新规则，也可以选择已经存在的规则，规则有两种类型：</p>
+                <ul>
+                    <li><strong>进程名称</strong>：匹配系统进程的名称</li>
+                    <li><strong>窗口名称</strong>：匹配窗口的标题名称</li>
+                </ul>
+                
+                <p>两种类型都支持包含、前匹配、后匹配的匹配方式。匹配值输入需要进行匹配的内容，如果有多个值使用逗号（英文逗号）分隔。可以支持多个匹配规则。配置完成匹配规则后，点击下一步。</p>
+                
+                  <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明759.png" alt="选择布局模板">
+                    <p class="screenshot-caption">选择布局模板</p>
+                </div>
+              
+                
+                <p>配置窗口组的名称和描述信息，可以查看配置摘要是否符合要求，点击完成按钮，完成窗口组的创建。</p>
+                
+              <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明917.png" alt="配置匹配规则">
+                    <!-- <p class="screenshot-caption">配置窗口匹配规则</p> -->
+                </div>
+                <h3>1.2.2 快速切换窗口组</h3>
+                
+                <p>可以通过切换窗口组快捷键打开切换窗口，默认情况下是 <strong>Shift+Alt+X</strong>。</p>
+                    <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明1013.png" alt="窗口组信息">
+                    <p class="screenshot-caption">配置窗口组信息</p>
+                </div>
+                
+               
+                
+                <p>在显示的窗口组列表卡片中，点击卡片区域就会自动切换窗口组，其布局和窗口会按照窗口组的配置进行自动排列。</p>
+                
+                <h3>1.2.3 显示/隐藏窗口组</h3>
+                
+                <p>将窗口拖到某个区域对齐后，会注册进入窗口组，可以使用快捷键；或者切换了自动的窗口组，默认情况下是 <strong>Shift+Alt+D</strong>，对这一组窗口进行隐藏或者显示，隐藏的方式有最小化窗口（默认）、隐藏（任务栏不可见）。</p>
+                
+                <h3>1.2.4 编辑和删除窗口组</h3>
+                
+                <p>在主界面滚动到下方，可以看到窗口组配置，点击管理按钮，打开窗口组管理窗口。</p>
+                 <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明1227.png" alt="切换窗口组">
+                    <p class="screenshot-caption">切换窗口组界面</p>
+                </div>
+               
+                
+                <p>可以点击窗口组卡片的编辑打开窗口组编辑向导窗口，编辑流程和创建窗口组流程一样；或者点击删除可以移除存在的窗口组。</p>
+           
+
+            <div class="manual-section" id="purchase">
+                <h2>1.3 购买、充值和试用软件</h2>
+                
+                <p>本软件为收费服务，按月订阅计费。请在购买或续费前确认您的订阅计划；开发与维护由独立开发人员承担，持续的功能更新、技术支持与服务器运行都依赖订阅收入，您的付费不仅能获得稳定、高质量的产品与服务，也在实质上支持开发者的生活与长期投入。感谢您的理解与支持，如有疑问请联系客户服务。</p>
+                
+                <h3>1.3.1 试用软件</h3>
+                
+                <p>提供为期 7 天的免费试用，试用需通过账户开启，每个账户仅限使用一次。欢迎在试用期间充分体验功能，如有疑问请联系客服。</p>
+                  <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明1498.png" alt="窗口组管理">
+                    <p class="screenshot-caption">试用软件</p>
+                </div>
+            </div>
+                
+                <p>在软件主界面，有软件授权信息显示，有试用和购买按钮，如需试用点击试用按钮即可。</p>
+                
+                <h3>1.3.2 购买和充值软件</h3>
+                
+                <p>如需购买软件，可以在软件授权信息显示的右侧，点击购买按钮，软件提供三种服务，月卡、季卡和年卡。账户的余额是充值的货币，<strong>100点=1元</strong>。</p>
+                
+                <p>如需购买软件，可以点击购买预付费卡按钮，会打开淘宝页面，在淘宝进行购买后，把预付费卡号填入下方的预付费卡输入文本框，选择需要的服务，点击充值并购买即可。</p>
+                   
+                <div class="screenshot-container">
+                    <img src="Resources/SlickZones 使用说明1616.png" alt="编辑窗口组">
+                    <p class="screenshot-caption">编辑窗口组界面</p>
+                </div>
+                 
+            </div>
+
+            <div class="manual-section" id="settings">
+                <h2>1.4 介绍说明</h2>
+                
+                <p><strong>启用/关闭功能</strong>：该功能用于启用或者停用 SlickZones 软件，如果授权过期将无法启用。</p>
+                <p><strong>软件授权</strong>：该功能用户显示软件授权信息，如果软件授权信息大于 7 天将不显示。</p>
+                <p><strong>托盘图标</strong>：软件登录成功后，会启动托盘图标，可以在托盘图标打开主界面、购买服务、新增窗口组等快捷操作。</p>
+                
+                <h3>1.4.1 通用设置</h3>
+                <p><strong>打开布局编辑器</strong>：在使用软件前，必须选择一个布局，通过打开布局编辑器来选择布局。</p>
+                <p><strong>激活布局区域快捷键</strong>：用来批量移动多个窗口时，显示布局区域的快捷键。</p>
+                <p><strong>随系统启动</strong>：启用后，软件将随着系统启动而自动启动。</p>
+                
+                <h3>1.4.2 区域行为</h3>
+                <p><strong>拖拽窗口按住 Shift 键来激活区域</strong>：启用时，在拖拽窗口并按下 Shift 按键，则会出现布局区域，可以拖拽窗口到区域内。</p>
+                <p><strong>切换窗口时间间隔（毫秒）</strong>：拖拽窗口后，下一次拖拽窗口的间隔时间。</p>
+                
+                <h3>1.4.3 窗口组配置</h3>
+                <p><strong>窗口组管理</strong>：可以创建或者管理已经创建的窗口组。</p>
+                <p><strong>切换窗口组快捷键</strong>：可以快速切换已经创建的窗口组。</p>
+                <p><strong>显示/隐藏窗口组快捷键</strong>：显示/隐藏窗口组的所有窗口</p>
+                <p><strong>显示/隐藏窗口组模式</strong>：设置隐藏窗口组的模式，最小化：表示窗口最小化，任务栏可见；隐藏：则在任务栏不可见。</p>
+                
+                <h3>1.4.4 区域外观</h3>
+                <p><strong>颜色设置</strong>：设置布局区域的颜色布局，如果选择定义，则可以设置高亮颜色、非活动颜色、边框颜色和文字颜色。</p>
+                <p><strong>显示区域编号</strong>：在布局区域窗口的区域上显示编号文字。</p>
+                <p><strong>透明度</strong>：设置布局区域窗口的透明度。</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="Resources/SlickZonesIcon.png" alt="SlickZones" class="logo-icon">
+                        <span class="logo-text">SlickZones</span>
+                    </div>
+                    <p class="footer-description">智能窗口区域管理工具，帮助您高效管理桌面布局。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul class="footer-links">
+                        <li><a href="http://www.keyclone.cn" target="_blank">KeyCloneEx 同步软件</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SlickZones. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" onclick="scrollToTop()" title="返回顶部">↑</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        window.addEventListener('scroll', function() {
+            const btn = document.querySelector('.back-to-top');
+            if (window.pageYOffset > 300) {
+                btn.style.display = 'flex';
+            } else {
+                btn.style.display = 'none';
+            }
+        });
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.back-to-top').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
